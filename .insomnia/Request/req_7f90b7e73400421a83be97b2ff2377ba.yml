@@ -1,0 +1,21 @@
+_id: req_7f90b7e73400421a83be97b2ff2377ba
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1665376221474
+created: 1665366930053
+url: https://prod-mercury.azurewebsites.net/api/kapow/sendsms.php?sms=Hello%20Brenden,%20your%20code%is%4545&mobile=0210534470&username=AUEGB01&password=AUEGB01
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665366930053
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

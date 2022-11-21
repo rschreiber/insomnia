@@ -1,0 +1,29 @@
+_id: req_dbaf7e378ea3484fbdb34356470d911a
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1665709943150
+created: 1665636131390
+url: https://localhost:55555/api/authenticate/register-admin/
+name: LocalHost - Create Admin User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "tmaredi@norraco.co.za",
+    	"password":"1q2w3e4r%T"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665636131390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

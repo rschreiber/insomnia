@@ -1,0 +1,36 @@
+_id: req_b3731c09a8ee4a47b3216299d44972ca
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1663052222501
+created: 1662954429575
+url: http://uat.olympusmobile.co.za:21401/om_api/v2.0/ClientSearch/v1.0/
+name: Customer Search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "requestId": 1234,
+      "searchType": "id_number",
+      "searchArg": "7608275203084"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_12e4ad851b1b4e9bbc74afbe1e883d2c
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: norraco_api
+  password: freshBu+ter29
+metaSortKey: -1662954429575
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

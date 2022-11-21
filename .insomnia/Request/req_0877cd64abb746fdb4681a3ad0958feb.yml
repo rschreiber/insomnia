@@ -1,0 +1,37 @@
+_id: req_0877cd64abb746fdb4681a3ad0958feb
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1669022339134
+created: 1666410622047
+url: https://ipg.silverservices.tech/api/paymentgateway/request-payment
+name: IconianRequestPayment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"internalPaymentReference": "12345abcde",
+    	"amount": 1.27,
+    	"currency": "ZAR",
+      "cardNumber": "5436886269848367",
+      "cardExpiry": "1227",
+      "cardVerify": "012",
+      "cardholderName": "A NONYMOUSE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bac33447dd1d4caf8987ac2c8c02888a
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImI2OWEyNzE1LWIxMmMtNDY4Ny1iOTE3LWJkYWFmNWE3YjM5NSIsImp0aSI6IjFhOGI1ODAwLTczOTctNGI4NS1hYThkLTQ2MGY2NTJlY2ZlNSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFwaVVzZXIiLCJleHAiOjE2Njg3NTI3MTQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjU1NjY2LyIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjU1NjY2LyJ9.KIL67lbP5TbcG_5oUkJWXeRvbdP3yp9Fsi5ySGljMIA
+metaSortKey: -1666388967224.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

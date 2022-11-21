@@ -1,0 +1,14 @@
+_id: env_200c715167b749658444df24287dff4f
+type: Environment
+parentId: env_bbe9877d557f3d58e14e41b95305022934305c4a
+modified: 1668667103594
+created: 1668638916581
+name: Azure
+data:
+  host: ipg.silverservices.tech
+dataPropertyOrder:
+  "&":
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1668638916581

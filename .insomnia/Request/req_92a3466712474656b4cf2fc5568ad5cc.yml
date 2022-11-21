@@ -1,0 +1,29 @@
+_id: req_92a3466712474656b4cf2fc5568ad5cc
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1666937182475
+created: 1666936641646
+url: https://transact.norraco.co.za/api/MultiFactorAuthenticate/send-code/
+name: GetOTPCode
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "+27969696969",
+    	"additionalIdentifier": "7608275203084"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666936641646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

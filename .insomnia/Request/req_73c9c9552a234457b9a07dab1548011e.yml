@@ -1,0 +1,36 @@
+_id: req_73c9c9552a234457b9a07dab1548011e
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1666413569195
+created: 1666384241345
+url: http://3.65.12.214:9443/api/BuyVoucher/v1.0/
+name: Buy Voucher Danie
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "userToken": "A3Xe8D9MQW0Jgixpo1GyHVzFzE09mClsx4USXjYCV/giE8E2ZWZOHdONEGWaGXatGKzJIb+vaJmJZeCL87UXig==",
+      "voucherValue": "10",
+      "paymentDetails": {"paymentType": "CC",
+                         "currency": "USD",
+                         "cardNumber": "5436886269848367",
+                         "cardExpiry": "0824",
+                         "cardVerify": "702",
+                         "cardholderName": "A NONYMOUSE"
+                        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666384241345
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

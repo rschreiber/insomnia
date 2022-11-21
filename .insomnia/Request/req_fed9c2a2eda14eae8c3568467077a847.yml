@@ -1,0 +1,32 @@
+_id: req_fed9c2a2eda14eae8c3568467077a847
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1668637755615
+created: 1666937157240
+url: https://transact.norraco.co.za/api/authenticate/change-password
+name: ChangePassword
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"identifier": "+27969696969",
+    	"additionalIdentifier": "7608275203084",
+    	"token": "S5iUbAJJUY1pxdLWpR61RrZENkKa4LfQqbd7mmj97Qi3VZqTrAv5rHfChorEYzzYOU+qTUdWPxEi8kKOFtUgg+49AWCHikbkjcyL7K6r1Oe+XC9JU1Wr/OB06YlYMA2C",
+    	"code": "135790",
+    	"password": "1q2w3e4r%T"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666669893254.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

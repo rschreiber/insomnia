@@ -1,0 +1,29 @@
+_id: req_86a75c71e9534b249a204c57000cf833
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1668666994375
+created: 1666403576516
+url: https://localhost:55666/api/authenticate/login
+name: IconianLogin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"identifier": "b69a2715-b12c-4687-b917-bdaaf5a7b395",
+    	"secret": "mDSJlvJJaaAoesEgzz/qYG9D9aFhPveV58v0Ks7tEfjjyUb/jXWrSGv/rrTtAw1cAmQ6rjeGHJ3NP6uEdEf3YWKLtTUnrUfGvTQSMkhp35A="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666393693104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

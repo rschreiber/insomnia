@@ -1,0 +1,28 @@
+_id: req_22f8a1e58ac34019a698df2e245cb64e
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1668666993084
+created: 1666403144863
+url: https://localhost:55666/api/authenticate/register
+name: IconianAddUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "test@test.test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666403144863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

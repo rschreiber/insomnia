@@ -1,0 +1,38 @@
+_id: req_ed7f878752dc44ec99c25e66ac31e49d
+type: Request
+parentId: wrk_978cea0dd26a40f0abacde9c6fe55228
+modified: 1665366925289
+created: 1663050143197
+url: http://uat.olympusmobile.co.za:21401/om_api/v2.0/CreateVirtualCard/v1.0/
+name: CreateVirtualCard
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "requestId": 1111,
+      "profileId": 476137,
+      "branchCode": 585001,
+      "accountNumber": 7100105243,
+      "cardPin": 1357
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_43e3444581e849f190afd05a75be5522
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: norraco_api
+  password: freshBu+ter29
+metaSortKey: -1663050143197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
